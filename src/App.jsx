@@ -1,45 +1,25 @@
-import { useEffect, useState } from "react"
+import { Cars } from "./components/Cars/Cars"
+import { Footer } from "./components/Footer/Footer"
 
 export const App = () => {
 
-    const [cars, setCar] = useState([])
-
-    async function getCarsData() {
-        try {
-            const response = await fetch('./src/JSON/cars.json')
-            const data = await response.json()
-
-            setCar(data)
-            console.log(data)
-        }
-        catch (err) {
-            console.error('The following error happend: ', err);
-        }
-    }
-
-    useEffect(() => {
-        getCarsData()
-    }, [])
-
     return (
-        <>
-            <img src="./src/assets/img/LegendaryMotorsport-GTAV-Logo.webp" alt="" className="click" />
-            {
-            cars.map(car => {
-                return (
-                    <article key={car.id}>
-                        <div className="top_card">
-                            <img src="../src/assets/img/personDoor.png" alt="" className="door_person" />
-                            <span>{car.space}</span>
-                        </div>
-                            <img src={car.logo} alt={car.name} className="img_car" />
-                        <div>
-                        <h2>{car.name}</h2>
-                        <p>${car.price.toLocaleString()}</p>
-                        </div>
-                    </article>
-                )})
-            }
-        </>
+        <div className="page_container">
+            <header className="header">
+                <section className="content_header_container">
+                    <img src="./src/assets/img/LegendaryMotorsport-GTAV-Logo.webp" alt="" className="logo" />
+                    <p className="text_top">ELEGÍ ENTRE NUESTROS ALTOS DEPORTIVOS</p>
+                    <p className="text_top">DE ALTA GAMA A GRANDES PRECIOS</p>
+                </section>
+            </header>
+            <main className="main">
+                <section className="top_main">
+                    <h3>NOVEDADES</h3>
+                    <button className="btn_sort_price"><span>Ordenar por precio</span><span>-</span></button>
+                </section>
+                <Cars></Cars>
+            </main>
+            <Footer></Footer>
+        </div>
     )
 }

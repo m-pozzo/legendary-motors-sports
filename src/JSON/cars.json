@@ -58,7 +58,7 @@
     {
         "id": 5,
         "name" : "Classique Broadway",
-        "logo": null,
+        "logo": "../src/assets/img/cars/broadway.jpg",
         "price" : 925000,
         "description" : "Hay que admitirlo: hasta ahora, el futuro no nos ha traído más que decepciones. Nos prometieron viajes espaciales y paz mundial, pero lo que tenemos es porno en realidad virtual cada vez más raro. Y lo demás ha sido casi todo una mierda. Así que... ¿por qué no te pones al volante del Broadway y viajas a una época anterior al rule 34, donde el diseño futurista era aún una utopía de ciencia ficción en vez de una moda absurda?",
         "space": 2,
@@ -72,7 +72,7 @@
     {
         "id": 6,
         "name" : "Pegassi Torero XO",
-        "logo": null,
+        "logo": "../src/assets/img/cars/torero.jpg",
         "price" : 2890000,
         "description": "El Pegassi Torero te daba un aura de estrella del porno clásica. El XO es algo muhco más glamuroso. Con sus potentes ángulos, líneas atrevidas y propulsión eufórica, es la celebridad que revienta las taquillas, saca una línea de ropa, se toma una foto en un país en desarrollo y acaba en un desplegable de la revista Gatitas; todo ello sin perder un ápice de soficticación.",
         "space": 2,
@@ -86,7 +86,7 @@
     {
         "id": 7,
         "name" : "Grotti Visione",
-        "logo": null,
+        "logo": "../src/assets/img/cars/visione.jpg",
         "price" : 2250000,
         "description" : "Ponte flojito, hay una primera vez para todos. Echas otra mirada furtiva a esas arrebatadoras curvas y sientes que estás a punto de desfallecer de deseo. De repente, no importa lo rico que seas, esta vez parece fuera de tu alcance. Tienes la boca seca y los pantalones empapados, y entonces, ocurre: las puertas se abren, te sientas y nada vuelve a ser lo mismo. Ya no hay vuelta atrás. Bienvenido a Visione.",
         "space": 2,
@@ -100,7 +100,7 @@
     {
         "id": 8,
         "name" : "Pegassi Infernus Clásico",
-        "logo": null,
+        "logo": "../src/assets/img/cars/infernus.jpg",
         "price" : 915000,
         "description" : "La experiencia te dice que algo tan atractivo debe ser extremadamente peligroso, y seguramente estás en lo cierto. El Infernus clásico es la clase de coche que te destellará con sus pómulos perfectos, vaciará tu cuenta bancaria, y, una vez que estés durmiendo sobre las sábanas húmedas, te acabará con un machete oxidado. ¿Qué más quieres?",
         "space": 2,
@@ -114,7 +114,7 @@
     {
         "id": 9,
         "name" : "Overflod Tyrant",
-        "logo": null,
+        "logo": "../src/assets/img/cars/tyrant.jpg",
         "price" : 2515000,
         "description" : "El Tyrant es un testamento del ingenio humano. No sabemos muy bien quiénes son más dignos de admiración; si el equipo de ingenieros que condujo a la especie humana lo más cerca posible de instalarle un volante y una palanca de velocidades a un huracán o el equipo de abogados capaz de lograr que fuera legal capaz de manejarlo. Tú decides.",
         "space": 2,
@@ -128,7 +128,7 @@
     {
         "id": 10,
         "name" : "Grotti X80 Proto",
-        "logo": null,
+        "logo": "../src/assets/img/cars/x80proto.jpg",
         "price" : 2700000,
         "description" : "El Proto ha provocado más avistamientos de ovnis en todo San Andreas que cualquier otro vehículo comercial esta década. Suele ser el prototipo que obtienes cuando tu director de investigación y desarrollo es un niño de ocho años con muchos cómics y un chingo de anfetaminas. El futuro ya está aquí, ¿Oíste viejo?",
         "space": 2,
