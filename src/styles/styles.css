@@ -70,24 +70,25 @@ body {
     padding: 30px 0;
 }
 
-.top_main>h3{
+.top_main>h3 {
     font-size: 24px;
     color: #fff;
 }
 
-.btn_sort_price{
+.btn_sort_price {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #bb0b0b;
-    color: #fff;    
+    color: #fff;
     border: none;
     border-radius: 3px;
     padding: 6px;
     width: 170px;
 
 }
-.btn_sort_price>span:nth-child(2){
+
+.btn_sort_price>span:nth-child(2) {
     font-size: 18px;
 }
 
@@ -162,8 +163,21 @@ body {
 }
 
 .footer {
-    /* z-index: 33;
-    position: fixed;
-    bottom: 0;
-    top: 54%; */
+    height: 20vh;
+    width: 100%;
+    background-color: #000;
+}
+
+.logo_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    padding: 0 5px;
 }
