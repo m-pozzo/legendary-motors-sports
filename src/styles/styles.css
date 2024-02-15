@@ -31,7 +31,7 @@ body {
     position: absolute;
 }
 
-.logo {
+.logo_header {
     width: 50%;
 }
 
@@ -175,7 +175,7 @@ body {
     padding: 15px 0;
 }
 
-.logo {
+.logo_footer {
     width: 80px;
     height: 80px;
     object-fit: contain;
