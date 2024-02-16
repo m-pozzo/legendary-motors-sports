@@ -1,26 +1,8 @@
-import { useEffect, useState } from "react"
-
+import {useFetchData} from '../hooks/useFetchData'
 
 export const Cars = () => {
 
-    const [cars, setCar] = useState([])
-
-    async function getCarsData() {
-        try {
-            const response = await fetch('./src/JSON/cars.json')
-            const data = await response.json()
-
-            setCar(data)
-            console.log(data)
-        }
-        catch (err) {
-            console.error('The following error happend: ', err);
-        }
-    }
-
-    useEffect(() => {
-        getCarsData()
-    }, [])
+    const {cars} = useFetchData([])
 
     return (
         <section className="cars_container">
