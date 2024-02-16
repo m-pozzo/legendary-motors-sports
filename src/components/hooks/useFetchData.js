@@ -19,8 +19,8 @@ export const useFetchData = () => {
     }, [])
 
 
-
     return {
-        cars
+        cars,
+        setCar
     }
 }
