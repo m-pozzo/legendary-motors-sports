@@ -1,19 +1,15 @@
 import { Cars } from "./components/Cars/Cars"
 import { Footer } from "./components/Footer/Footer"
 import { Header } from "./components/Header/Header"
-import { useFetchData } from "./components/hooks/useFetchData"
+import { cars } from './JSON/cars.json'
 
 export const App = () => {
-
-    const { cars, setCar } = useFetchData([])
 
 
     const sortCars = () => {
         console.log(cars)
-        const autosOrdenados = [...cars].sort((a, b) => a.price - b.pricec)
-        setCar(autosOrdenados)
+        const autosOrdenados = [...cars].sort((a, b) => a.price - b.price)
         console.log(autosOrdenados)
-        console.log(cars)
     }
 
     return (
@@ -24,7 +20,7 @@ export const App = () => {
                     <h3>NOVEDADES</h3>
                     <button className="btn_sort_price" onClick={sortCars}><span>Ordenar por precio</span><span>-</span></button>
                 </section>
-                <Cars></Cars>
+                <Cars cars={cars}></Cars>
             </main>
             <Footer></Footer>
         </div>
