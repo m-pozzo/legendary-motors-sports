@@ -10,12 +10,10 @@ export const Cars = () => {
     const sortCars = () => {
         if (filter) {
             let sortedCars = [...cars].sort((a, b) => a.price - b.price);
-            console.log(sortedCars)
             setFilter(false)
             setCar(sortedCars)
         } else {
             let sortedCars = [...cars].sort((a, b) => b.price - a.price);
-            console.log(sortedCars)
             setFilter(true)
             setCar(sortedCars)
         }

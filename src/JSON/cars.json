@@ -1,142 +1,142 @@
 [
-    {
-        "id": 1,
-        "name" : "Vapid Aleutian",
-        "logo": "../src/assets/img/cars/vapidAleutian.jpg",
-        "price" : 1835000,
-        "description" : "El vapid Aleutian, comprado al mayoreo tanto por los carteles como por el FIB, ha sido el mayor exponente de la guerra contra el narcotráfico desde su creación. Sus fieles clientes son los que han vuelto a poner de moda la industria automovilística estadounidense. Su blindaje, sus minas resbaladizas. su unidad de control remoto y su bloqueador de fijación de misiles opcionales te harán desear formar parte del renacer de la industria.",
-        "space": 4,
-        "stats": {
-            "speed": 62,
-            "acceleration": 65,
-            "breaking": 23,
-            "traction": 62
+        {
+            "id": 1,
+            "name": "Vapid Aleutian",
+            "logo": "../src/assets/img/cars/vapidAleutian.jpg",
+            "price": 1835000,
+            "description": "El vapid Aleutian, comprado al mayoreo tanto por los carteles como por el FIB, ha sido el mayor exponente de la guerra contra el narcotráfico desde su creación. Sus fieles clientes son los que han vuelto a poner de moda la industria automovilística estadounidense. Su blindaje, sus minas resbaladizas. su unidad de control remoto y su bloqueador de fijación de misiles opcionales te harán desear formar parte del renacer de la industria.",
+            "space": 4,
+            "stats": {
+                "speed": 62,
+                "acceleration": 65,
+                "breaking": 23,
+                "traction": 62
+            }
+        },
+        {
+            "id": 2,
+            "name": "Grotti Turismo Omaggio",
+            "logo": "../src/assets/img/cars/turismoOmaggio.jpg",
+            "price": 2845000,
+            "description": "En un mundo en el que parece que lo mejor a lo que puedes aspirar es a una chaqueta 100% eléctrica con porno híbrido, el impresionante homenaje de despedida de Grotti al potente V8 es la cita sexual de tus sueños más calientes y húmedos. Siéntate y abróchate el cinturón para disfrutar del último aliento de gasolina pura mientras le firmas un autógrafo a la capa de ozono por última vez.",
+            "space": 2,
+            "stats": {
+                "speed": 81,
+                "acceleration": 93,
+                "breaking": 40,
+                "traction": 100
+            }
+        },
+        {
+            "id": 3,
+            "name": "Bravado Buffalo EVX",
+            "logo": "../src/assets/img/cars/buffaloEVX.jpg",
+            "price": 2140000,
+            "description": "¿Pasas los días fantaseando con la época dorada de la industria automovilística estadounidense?¿No puedes dormir debido a la ansiedad que te provoca el apocalipsis climático? Olvídate de la terapia y de hacer concesiones. Bravado tiene loq ue buscas. Presentamos el Buffalo EVX totalmente eléctrico, pura potencia diseñada en un laboratorio que late a mil voltios. Se ve como los V8 de la vieja escuela, tiene su poder y actitud. También es apto para veganos, de cero emisiones y el único ruido que hace es un quejido hipermoderno, pero que eso quede entre nosotros.",
+            "space": 2,
+            "stats": {
+                "speed": 82,
+                "acceleration": 96,
+                "breaking": 32,
+                "traction": 76
+            }
+        },
+        {
+            "id": 4,
+            "name": "Ocelot Virtue",
+            "logo": "../src/assets/img/cars/ocelotVirtue.jpg",
+            "price": 2980000,
+            "description": "Te presentamos el hipecoche eléctrico que viene preparado para los circuitos y la cuidad, con el que podrás demostrar tu compromiso con el cambio climático y tu situación de exiliado fiscal conduciendo el mismo vehículo. Y si te cansas de los sabelotodo que te señalan la contradicción, equípalo con tecnología digna de aplausos (bloqueador de fijación de misiles, blindaje, unidad de control remoto y minas resbaladizas) para terminar de golpe cualquier discusión.",
+            "space": 2,
+            "stats": {
+                "speed": 82,
+                "acceleration": 82,
+                "breaking": 41,
+                "traction": 100
+            }
+        },
+        {
+            "id": 5,
+            "name": "Classique Broadway",
+            "logo": "../src/assets/img/cars/broadway.jpg",
+            "price": 925000,
+            "description": "Hay que admitirlo: hasta ahora, el futuro no nos ha traído más que decepciones. Nos prometieron viajes espaciales y paz mundial, pero lo que tenemos es porno en realidad virtual cada vez más raro. Y lo demás ha sido casi todo una mierda. Así que... ¿por qué no te pones al volante del Broadway y viajas a una época anterior al rule 34, donde el diseño futurista era aún una utopía de ciencia ficción en vez de una moda absurda?",
+            "space": 2,
+            "stats": {
+                "speed": 63,
+                "acceleration": 44,
+                "breaking": 10,
+                "traction": 60
+            }
+        },
+        {
+            "id": 6,
+            "name": "Pegassi Torero XO",
+            "logo": "../src/assets/img/cars/torero.jpg",
+            "price": 2890000,
+            "description": "El Pegassi Torero te daba un aura de estrella del porno clásica. El XO es algo muhco más glamuroso. Con sus potentes ángulos, líneas atrevidas y propulsión eufórica, es la celebridad que revienta las taquillas, saca una línea de ropa, se toma una foto en un país en desarrollo y acaba en un desplegable de la revista Gatitas; todo ello sin perder un ápice de soficticación.",
+            "space": 2,
+            "stats": {
+                "speed": 83,
+                "acceleration": 98,
+                "breaking": 39,
+                "traction": 82
+            }
+        },
+        {
+            "id": 7,
+            "name": "Grotti Visione",
+            "logo": "../src/assets/img/cars/visione.jpg",
+            "price": 2250000,
+            "description": "Ponte flojito, hay una primera vez para todos. Echas otra mirada furtiva a esas arrebatadoras curvas y sientes que estás a punto de desfallecer de deseo. De repente, no importa lo rico que seas, esta vez parece fuera de tu alcance. Tienes la boca seca y los pantalones empapados, y entonces, ocurre: las puertas se abren, te sientas y nada vuelve a ser lo mismo. Ya no hay vuelta atrás. Bienvenido a Visione.",
+            "space": 2,
+            "stats": {
+                "speed": 83,
+                "acceleration": 84,
+                "breaking": 37,
+                "traction": 90
+            }
+        },
+        {
+            "id": 8,
+            "name": "Pegassi Infernus Clásico",
+            "logo": "../src/assets/img/cars/infernus.jpg",
+            "price": 915000,
+            "description": "La experiencia te dice que algo tan atractivo debe ser extremadamente peligroso, y seguramente estás en lo cierto. El Infernus clásico es la clase de coche que te destellará con sus pómulos perfectos, vaciará tu cuenta bancaria, y, una vez que estés durmiendo sobre las sábanas húmedas, te acabará con un machete oxidado. ¿Qué más quieres?",
+            "space": 2,
+            "stats": {
+                "speed": 80.4,
+                "acceleration": 80.9,
+                "breaking": 18,
+                "traction": 80
+            }
+        },
+        {
+            "id": 9,
+            "name": "Overflod Tyrant",
+            "logo": "../src/assets/img/cars/tyrant.jpg",
+            "price": 2515000,
+            "description": "El Tyrant es un testamento del ingenio humano. No sabemos muy bien quiénes son más dignos de admiración; si el equipo de ingenieros que condujo a la especie humana lo más cerca posible de instalarle un volante y una palanca de velocidades a un huracán o el equipo de abogados capaz de lograr que fuera legal capaz de manejarlo. Tú decides.",
+            "space": 2,
+            "stats": {
+                "speed": 86,
+                "acceleration": 83,
+                "breaking": 36,
+                "traction": 100
+            }
+        },
+        {
+            "id": 10,
+            "name": "Grotti X80 Proto",
+            "logo": "../src/assets/img/cars/x80proto.jpg",
+            "price": 2700000,
+            "description": "El Proto ha provocado más avistamientos de ovnis en todo San Andreas que cualquier otro vehículo comercial esta década. Suele ser el prototipo que obtienes cuando tu director de investigación y desarrollo es un niño de ocho años con muchos cómics y un chingo de anfetaminas. El futuro ya está aquí, ¿Oíste viejo?",
+            "space": 2,
+            "stats": {
+                "speed": 63,
+                "acceleration": 44,
+                "breaking": 10,
+                "traction": 60
+            }
         }
-    },
-    {
-        "id": 2,
-        "name" : "Grotti Turismo Omaggio",
-        "logo": "../src/assets/img/cars/turismoOmaggio.jpg",
-        "price" : 2845000,
-        "description" : "En un mundo en el que parece que lo mejor a lo que puedes aspirar es a una chaqueta 100% eléctrica con porno híbrido, el impresionante homenaje de despedida de Grotti al potente V8 es la cita sexual de tus sueños más calientes y húmedos. Siéntate y abróchate el cinturón para disfrutar del último aliento de gasolina pura mientras le firmas un autógrafo a la capa de ozono por última vez.",
-        "space": 2,
-        "stats": {
-            "speed": 81,
-            "acceleration": 93,
-            "breaking": 40,
-            "traction": 100
-        }
-    },
-    {
-        "id": 3,
-        "name" : "Bravado Buffalo EVX",
-        "logo": "../src/assets/img/cars/buffaloEVX.jpg",
-        "price" : 2140000,
-        "description" : "¿Pasas los días fantaseando con la época dorada de la industria automovilística estadounidense?¿No puedes dormir debido a la ansiedad que te provoca el apocalipsis climático? Olvídate de la terapia y de hacer concesiones. Bravado tiene loq ue buscas. Presentamos el Buffalo EVX totalmente eléctrico, pura potencia diseñada en un laboratorio que late a mil voltios. Se ve como los V8 de la vieja escuela, tiene su poder y actitud. También es apto para veganos, de cero emisiones y el único ruido que hace es un quejido hipermoderno, pero que eso quede entre nosotros.",
-        "space": 2,
-        "stats": {
-            "speed": 82,
-            "acceleration": 96,
-            "breaking": 32,
-            "traction": 76
-        }
-    },
-    {
-        "id": 4,
-        "name" : "Ocelot Virtue",
-        "logo": "../src/assets/img/cars/ocelotVirtue.jpg",
-        "price" : 2980000,
-        "description" : "Te presentamos el hipecoche eléctrico que viene preparado para los circuitos y la cuidad, con el que podrás demostrar tu compromiso con el cambio climático y tu situación de exiliado fiscal conduciendo el mismo vehículo. Y si te cansas de los sabelotodo que te señalan la contradicción, equípalo con tecnología digna de aplausos (bloqueador de fijación de misiles, blindaje, unidad de control remoto y minas resbaladizas) para terminar de golpe cualquier discusión.",
-        "space": 2,
-        "stats": {
-            "speed": 82,
-            "acceleration": 82,
-            "breaking": 41,
-            "traction": 100
-        }
-    },
-    {
-        "id": 5,
-        "name" : "Classique Broadway",
-        "logo": "../src/assets/img/cars/broadway.jpg",
-        "price" : 925000,
-        "description" : "Hay que admitirlo: hasta ahora, el futuro no nos ha traído más que decepciones. Nos prometieron viajes espaciales y paz mundial, pero lo que tenemos es porno en realidad virtual cada vez más raro. Y lo demás ha sido casi todo una mierda. Así que... ¿por qué no te pones al volante del Broadway y viajas a una época anterior al rule 34, donde el diseño futurista era aún una utopía de ciencia ficción en vez de una moda absurda?",
-        "space": 2,
-        "stats": {
-            "speed": 63,
-            "acceleration": 44,
-            "breaking": 10,
-            "traction": 60
-        }
-    },
-    {
-        "id": 6,
-        "name" : "Pegassi Torero XO",
-        "logo": "../src/assets/img/cars/torero.jpg",
-        "price" : 2890000,
-        "description": "El Pegassi Torero te daba un aura de estrella del porno clásica. El XO es algo muhco más glamuroso. Con sus potentes ángulos, líneas atrevidas y propulsión eufórica, es la celebridad que revienta las taquillas, saca una línea de ropa, se toma una foto en un país en desarrollo y acaba en un desplegable de la revista Gatitas; todo ello sin perder un ápice de soficticación.",
-        "space": 2,
-        "stats": {
-            "speed": 83,
-            "acceleration": 98,
-            "breaking": 39,
-            "traction": 82
-        }
-    },
-    {
-        "id": 7,
-        "name" : "Grotti Visione",
-        "logo": "../src/assets/img/cars/visione.jpg",
-        "price" : 2250000,
-        "description" : "Ponte flojito, hay una primera vez para todos. Echas otra mirada furtiva a esas arrebatadoras curvas y sientes que estás a punto de desfallecer de deseo. De repente, no importa lo rico que seas, esta vez parece fuera de tu alcance. Tienes la boca seca y los pantalones empapados, y entonces, ocurre: las puertas se abren, te sientas y nada vuelve a ser lo mismo. Ya no hay vuelta atrás. Bienvenido a Visione.",
-        "space": 2,
-        "stats": {
-            "speed": 83,
-            "acceleration": 84,
-            "breaking": 37,
-            "traction": 90
-        }
-    },
-    {
-        "id": 8,
-        "name" : "Pegassi Infernus Clásico",
-        "logo": "../src/assets/img/cars/infernus.jpg",
-        "price" : 915000,
-        "description" : "La experiencia te dice que algo tan atractivo debe ser extremadamente peligroso, y seguramente estás en lo cierto. El Infernus clásico es la clase de coche que te destellará con sus pómulos perfectos, vaciará tu cuenta bancaria, y, una vez que estés durmiendo sobre las sábanas húmedas, te acabará con un machete oxidado. ¿Qué más quieres?",
-        "space": 2,
-        "stats": {
-            "speed": 80.4,
-            "acceleration": 80.9,
-            "breaking": 18,
-            "traction": 80
-        }
-    },
-    {
-        "id": 9,
-        "name" : "Overflod Tyrant",
-        "logo": "../src/assets/img/cars/tyrant.jpg",
-        "price" : 2515000,
-        "description" : "El Tyrant es un testamento del ingenio humano. No sabemos muy bien quiénes son más dignos de admiración; si el equipo de ingenieros que condujo a la especie humana lo más cerca posible de instalarle un volante y una palanca de velocidades a un huracán o el equipo de abogados capaz de lograr que fuera legal capaz de manejarlo. Tú decides.",
-        "space": 2,
-        "stats": {
-            "speed": 86,
-            "acceleration": 83,
-            "breaking": 36,
-            "traction": 100
-        }
-    },
-    {
-        "id": 10,
-        "name" : "Grotti X80 Proto",
-        "logo": "../src/assets/img/cars/x80proto.jpg",
-        "price" : 2700000,
-        "description" : "El Proto ha provocado más avistamientos de ovnis en todo San Andreas que cualquier otro vehículo comercial esta década. Suele ser el prototipo que obtienes cuando tu director de investigación y desarrollo es un niño de ocho años con muchos cómics y un chingo de anfetaminas. El futuro ya está aquí, ¿Oíste viejo?",
-        "space": 2,
-        "stats": {
-            "speed": 63,
-            "acceleration": 44,
-            "breaking": 10,
-            "traction": 60
-        }
-    }
 ]
