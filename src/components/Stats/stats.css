@@ -3,6 +3,25 @@
 }
 
 .stats {
-    list-style: none;
     color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.stats > ul {
+    list-style: none;
+}
+
+.stats > ul > li {
+    margin-bottom: 9px;
+}
+
+.raya {
+    width: 35px;
+    height: 7px;
+    margin-right: 5px;
+    display: inline-block;
+    background-color: aliceblue;
 }

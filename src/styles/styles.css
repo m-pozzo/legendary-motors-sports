@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'M PLUS 1p', sans-serif;
+    font-family: 'Instrument Sans', sans-serif;
+    font-weight: 100;                             
 }
 
 body {
@@ -130,6 +131,7 @@ body {
     justify-content: space-between;
     margin-top: -6px;
     background-color: #000;
+    border-top: #000 solid 2px;
 }
 
 .door_person {

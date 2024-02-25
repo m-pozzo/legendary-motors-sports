@@ -1,16 +1,21 @@
 import { useParams } from "react-router-dom"
-import { Cars } from './Cars'
-import { Colors } from '../Colors/Colors'
 import { Stats } from '../Stats/Stats'
+import { useState } from "react"
 import cars from '../../JSON/cars.json'
-import './cars.css'
+import './detail.css'
 
 export const CarDetail = () => {
 
   const { carId } = useParams()
-  console.log(cars)
   const thisCar = cars.find(car => car.id === parseInt(carId))
 
+  const [color, setColor] = useState(null)
+  const [disabled, setDisabled] = useState(true)
+
+  const handleClick = (item) => {
+    setColor(item)
+    setDisabled(false)
+  }
   return (
     <>
       <section className='main'>
@@ -27,11 +32,26 @@ export const CarDetail = () => {
               <p>{thisCar.description}</p>
             </div>
             <div className="color_container">
-              <Colors></Colors>
+              <h3 className="color_title">ELEGIR COLOR PARA COMPRAR</h3>
+              <div className="color_type_container">
+                <span className={
+                  `color_type 
+                  ${color == "color1" ? 'selected' : ''}`
+                }
+                  onClick={() => handleClick('color1')}>
+                </span>
+                <span className={`color_type ${color == "color2" ? 'selected' : ''}`} onClick={() => handleClick('color2')}></span>
+                <span className={`color_type ${color == "color3" ? 'selected' : ''}`} onClick={() => handleClick('color3')}></span>
+                <span className={`color_type ${color == "color4" ? 'selected' : ''}`} onClick={() => handleClick('color4')}></span>
+                <span className={`color_type ${color == "color5" ? 'selected' : ''}`} onClick={() => handleClick('color5')}></span>
+                <span className={`color_type ${color == "color6" ? 'selected' : ''}`} onClick={() => handleClick('color6')}></span>
+                <span className={`color_type ${color == "color7" ? 'selected' : ''}`} onClick={() => handleClick('color7')}></span>
+                <span className={`color_type ${color == "color8" ? 'selected_black' : ''}`} onClick={() => handleClick('color8')}></span>
+              </div>
             </div>
             <div className="stats_container">
-              <Stats></Stats>
-              <button className="buy_btn" id="buyBtn" disabled>Comprar</button>
+              <Stats speed={thisCar.stats.speed} acc={thisCar.stats.acceleration} breaking={thisCar.stats.breaking} trac={thisCar.stats.traction}></Stats>
+              <button className={`${disabled ? 'disabled' : 'buy_btn'}`} id="buyBtn" disabled>Comprar</button>
             </div>
           </div>
         </article>
