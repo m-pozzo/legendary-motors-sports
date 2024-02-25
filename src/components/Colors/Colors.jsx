@@ -1,10 +1,19 @@
-import React from 'react'
+import "./color.css"
 
 export const Colors = () => {
   return (
-    <div>
-      <h3>ELEGIR COLOR</h3>
-      <span></span>
-    </div>
+    <>
+      <h3 className="color_title">ELEGIR COLOR</h3>
+      <div className="color_type_container">
+        <span className='color_type'></span>
+        <span className='color_type'></span>
+        <span className='color_type'></span>
+        <span className='color_type'></span>
+        <span className='color_type'></span>
+        <span className='color_type'></span>
+        <span className='color_type'></span>
+        <span className='color_type'></span>
+      </div>
+    </>
   )
 }

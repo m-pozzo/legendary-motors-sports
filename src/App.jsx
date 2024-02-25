@@ -1,15 +1,18 @@
-import { Cars } from "./components/Cars/Cars"
 import { Footer } from "./components/Footer/Footer"
 import { Header } from "./components/Header/Header"
+import { Cars } from "./components/Cars/Cars";
+import { CarDetail } from "./components/Cars/CarDetail";
+import { Routes, Route } from "react-router-dom";
 
 export const App = () => {
 
     return (
         <div className="page_container">
             <Header></Header>
-            <main className="main">
-                <Cars></Cars>
-            </main>
+            <Routes>
+                <Route exact path="/" element={<Cars></Cars>}></Route>
+                <Route exact path="/:carId" element={<CarDetail></CarDetail>}></Route>
+            </Routes>
             <Footer></Footer>
         </div>
     )
