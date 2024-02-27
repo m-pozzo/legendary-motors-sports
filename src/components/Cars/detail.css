@@ -59,6 +59,7 @@ h3 {
     font-size: 20px;
     cursor: pointer;
     margin-top: 20px;
+    cursor: url(../../assets/img/cursor.png), auto;
 }
 
 .disabled {
@@ -86,7 +87,7 @@ h3 {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    cursor: pointer;
+    cursor: url(../../assets/img/cursor.png), auto;
 }
 
 .selected {
