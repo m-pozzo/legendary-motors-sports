@@ -3,7 +3,6 @@ import React from 'react'
 export const Rayas = ({porcentaje}) => {
 
     const rayasLlenas = porcentaje / 20;
-    console.log(rayasLlenas)
   
     const renderRayas = () => {
       const rayas = [];

@@ -4,6 +4,14 @@ import { Link } from "react-router-dom";
 
 export const Cars = () => {
 
+    function ScrollToTopOnMount() {
+        React.useEffect((e) => {
+          window.scrollTo(0, 0);
+        }, []);
+      
+        return null;
+      }    
+
     const [cars, setCars] = useState(carsData)
     const [filter, setFilter] = useState(true)
 
@@ -33,7 +41,7 @@ export const Cars = () => {
                                     <span className="space_number">{space}</span>
                                 </div>
                                 <div className="car_img_container">
-                                    <Link to={`/${id}`}>
+                                    <Link to={`/${id}`} onClick={ScrollToTopOnMount}>
                                         <img src={photo} alt={name + " photo"} className="car_img" />
                                     </Link>
                                 </div>

@@ -30,3 +30,9 @@
     margin-top: 20px;
     cursor: url(../../assets/img/cursor.png), auto;
 }
+
+@media (max-width: 520px){
+    .success {
+        margin-top: 440px;
+    }
+}

@@ -129,3 +129,23 @@ h3 {
 .color_type:nth-child(8) {
     background-color: #ffffff;
 }
+
+
+@media (max-width: 520px){
+    .top >img{
+        width: 60px;
+        margin-right: 16px;
+    }
+    .car_title{
+        font-size: 26px;
+    }
+    .bottom {
+        flex-direction: column;
+    }
+    .bottom_left{
+        width: 100%;
+    }
+    .bottom_right{
+        width: 100%;
+    }
+}

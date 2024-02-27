@@ -25,3 +25,14 @@
     display: inline-block;
     background-color: aliceblue;
 }
+
+@media (max-width: 520px){
+    .stats_container {
+        display: flex;
+        flex-direction: column;
+    }
+    .raya {
+        width: 25px;
+        height: 5px;
+    }
+}

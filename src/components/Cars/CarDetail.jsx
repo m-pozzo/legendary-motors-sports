@@ -19,7 +19,7 @@ export const CarDetail = () => {
   }
   return (
     <>
-      <section className='main'>
+      <section className='main details_container'>
         <article className="top">
           <img src={thisCar.logo} alt='logo del vehículo' />
           <h1 className="car_title">{thisCar.name}</h1>
