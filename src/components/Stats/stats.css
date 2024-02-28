@@ -18,12 +18,16 @@
     margin-bottom: 9px;
 }
 
-.raya {
+.raya, .raya_vacia {
     width: 35px;
     height: 7px;
     margin-right: 5px;
     display: inline-block;
-    background-color: aliceblue;
+    background-color: #fff;
+}
+
+.raya_vacia {
+    background-color: #857b7b73;
 }
 
 @media (max-width: 520px){
