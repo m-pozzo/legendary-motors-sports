@@ -1,7 +1,8 @@
 [
     {
         "id": 1,
-        "name": "Vapid Aleutian",
+        "brand": "Vapid",
+        "name": "Aleutian",
         "photo": "../src/assets/img/cars/vapidAleutian.jpg",
         "mosaico": "../src/assets/img/cars/mosaico/vapidAleutian.jpg",
         "logo": "../src/assets/img/vapidLogo.webp",
@@ -17,7 +18,8 @@
     },
     {
         "id": 2,
-        "name": "Grotti Turismo Omaggio",
+        "brand": "Grotti",
+        "name": "Turismo Omaggio",
         "photo": "../src/assets/img/cars/turismoOmaggio.jpg",
         "mosaico": "../src/assets/img/cars/mosaico/turismoOmaggio.webp",
         "logo": "../src/assets/img/grottiLogo.webp",
@@ -33,7 +35,8 @@
     },
     {
         "id": 3,
-        "name": "Bravado Buffalo EVX",
+        "brand": "Bravado",
+        "name": "Buffalo EVX",
         "photo": "../src/assets/img/cars/buffaloEVX.jpg",
         "mosaico": "../src/assets/img/cars/mosaico/buffaloEVX.webp",
         "logo": "../src/assets/img/bravadoLogo.webp",
@@ -49,7 +52,8 @@
     },
     {
         "id": 4,
-        "name": "Ocelot Virtue",
+        "brand": "Ocelot",
+        "name": "Virtue",
         "photo": "../src/assets/img/cars/ocelotVirtue.jpg",
         "mosaico": "../src/assets/img/cars/mosaico/virtue.webp",
         "logo": "../src/assets/img/ocelotLogo.webp",
@@ -65,6 +69,7 @@
     },
     {
         "id": 5,
+        "brand": "",
         "name": "Classique Broadway",
         "photo": "../src/assets/img/cars/broadway.jpg",
         "mosaico": "../src/assets/img/cars/mosaico/broadway.webp",
@@ -81,7 +86,8 @@
     },
     {
         "id": 6,
-        "name": "Pegassi Torero XO",
+        "brand": "Pegassi",
+        "name": "Torero XO",
         "photo":"../src/assets/img/cars/torero.jpg",
         "mosaico":"../src/assets/img/cars/mosaico/torero.webp",
         "logo": "../src/assets/img/pegassiLogo.webp",
@@ -97,7 +103,8 @@
     },
     {
         "id": 7,
-        "name": "Grotti Visione",
+        "brand": "Grotti",
+        "name": "Visione",
         "photo": "../src/assets/img/cars/visione.jpg",
         "mosaico": "../src/assets/img/cars/mosaico/visione.webp",
         "logo": "../src/assets/img/grottiLogo.webp",
@@ -113,7 +120,8 @@
     },
     {
         "id": 8,
-        "name": "Pegassi Infernus Clásico",
+        "brand": "Pegassi",
+        "name": "Infernus Clásico",
         "photo": "../src/assets/img/cars/infernus.jpg",
         "mosaico": "../src/assets/img/cars/mosaico/infernus.webp",
         "logo": "../src/assets/img/pegassiLogo.webp",
@@ -129,7 +137,8 @@
     },
     {
         "id": 9,
-        "name": "Overflod Tyrant",
+        "brand": "Overflod",
+        "name": "Tyrant",
         "photo": "../src/assets/img/cars/tyrant.jpg",
         "mosaico": "../src/assets/img/cars/mosaico/tyrant.webp",
         "logo": "../src/assets/img/overflodLogo.webp",
@@ -145,7 +154,8 @@
     },
     {
         "id": 10,
-        "name": "Grotti X80 Proto",
+        "brand": "Grotti",
+        "name": "X80 Proto",
         "photo": "../src/assets/img/cars/x80proto.jpg",
         "mosaico": "../src/assets/img/cars/mosaico/x80proto.webp",
         "logo": "../src/assets/img/grottiLogo.webp",

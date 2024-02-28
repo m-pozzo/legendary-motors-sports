@@ -1,6 +1,7 @@
 import carsData from '../../JSON/cars.json'
 import { useState } from 'react'
 import { Link } from "react-router-dom";
+import './car.css'
 
 export const Cars = () => {
 
@@ -33,7 +34,7 @@ export const Cars = () => {
             </section>
             <section className="cars_container">
                 {
-                    cars.map(({ id, space, photo, name, price }) => {
+                    cars.map(({ id, space, photo, name, brand, price }) => {
                         return (
                             <article key={id} className="card">
                                 <div className="top_card">
@@ -46,7 +47,7 @@ export const Cars = () => {
                                     </Link>
                                 </div>
                                 <div className="bottom_card">
-                                    <h2 className="car_name">{name}</h2>
+                                    <h2 className="car_name">{brand} {name}</h2>
                                     <p className="car_price">${price.toLocaleString()}</p>
                                 </div>
                             </article>

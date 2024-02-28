@@ -93,77 +93,6 @@ body {
     font-size: 18px;
 }
 
-.cars_container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit,
-            minmax(275px,
-                1fr));
-    gap: 20px;
-    padding-bottom: 20px;
-}
-
-.card {
-    width: 100%;
-    border-image: linear-gradient(to right, #dfdede, #1a1919, #1a1919) 1;
-    border-bottom: transparent 2px solid;
-    border-top: transparent 2px solid;
-    border-left: transparent 2px solid;
-    border-right: transparent 2px solid;
-}
-
-.top_card {
-    display: flex;
-    align-items: flex-start;
-    justify-content: end;
-    padding: 3px 9px;
-    background-image: linear-gradient(to bottom,
-            #fff 0%,
-            #fff 50%,
-            #ebeaea 50%,
-            #ebeaea 100%);
-}
-
-.bottom_card {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: -6px;
-    background-color: #000;
-    border-top: #000 solid 2px;
-}
-
-.door_person {
-    width: 35px;
-    height: 35px;
-    margin-bottom: 5px;
-}
-
-.space_number {
-    color: #b8b8b8;
-}
-
-.car_img {
-    width: 100%;
-    aspect-ratio: 16/9;
-    height: 200px;
-    cursor: url(../assets/img/cursor.png), auto;
-}
-
-.car_price {
-    padding: 10px 5px;
-    background: linear-gradient(to bottom, #bb0b0b, #860606);
-    color: #fff;
-}
-
-.car_name {
-    font-size: 18px;
-    color: #fff;
-    padding-left: 4px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
 
 
 @media (max-width: 520px) {
@@ -174,11 +103,11 @@ body {
     .logo_header {
         width: 330px;
     }
-    
+
     .text_top:nth-child(2) {
         font-size: 20px;
     }
-    
+
     .main {
         margin-top: 330px;
     }
@@ -186,25 +115,18 @@ body {
     .top_main {
         flex-direction: column;
     }
+
     .btn_sort_price {
         margin-top: 15px;
     }
-    .cars_container {
-        grid-template-columns: repeat(auto-fit,
-        minmax(215px,
-        1fr));
-    }
 }
-@media (max-width: 360px){
+
+@media (max-width: 360px) {
     .logo_header {
         width: 280px;
     }
-    .cars_container {
-        grid-template-columns: repeat(auto-fit,
-        minmax(215px,
-        1fr));
-    }
-    .main{
+
+    .main {
         margin-top: 300px;
     }
 }
