@@ -52,7 +52,7 @@
     width: 100%;
     aspect-ratio: 16/9;
     height: 200px;
-    cursor: url(../assets/img/cursor.png), auto;
+    cursor: url(../../assets/img/cursor.png), auto;
 }
 
 .car_price {
