@@ -38,7 +38,7 @@ export const Cars = () => {
                         return (
                             <article key={id} className="card">
                                 <div className="top_card">
-                                    <img src="../src/assets/img/personDoor.png" alt="" className="door_person" />
+                                    <img src="/assets/img/personDoor.png" alt="" className="door_person" />
                                     <span className="space_number">{space}</span>
                                 </div>
                                 <div className="car_img_container">

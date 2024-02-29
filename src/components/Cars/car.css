@@ -5,9 +5,11 @@
                 1fr));
     gap: 20px;
     padding-bottom: 20px;
+    justify-items: center;
 }
 
 .card {
+    max-width: 350px;
     width: 100%;
     border-image: linear-gradient(to right, #dfdede, #1a1919, #1a1919) 1;
     border-bottom: transparent 2px solid;
@@ -36,6 +38,7 @@
     margin-top: -6px;
     background-color: #000;
     border-top: #000 solid 2px;
+    height: auto;
 }
 
 .door_person {
@@ -51,7 +54,7 @@
 .car_img {
     width: 100%;
     aspect-ratio: 16/9;
-    height: 200px;
+    /* height: 100%; */
     cursor: url(../../assets/img/cursor.png), auto;
 }
 

@@ -93,7 +93,11 @@ body {
     font-size: 18px;
 }
 
-
+@media (min-width: 560px ) and (max-width: 1024px){
+    .header {
+        height: 35vh;
+    }
+}
 
 @media (max-width: 520px) {
     .header {

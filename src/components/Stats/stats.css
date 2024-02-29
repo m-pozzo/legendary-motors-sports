@@ -10,15 +10,16 @@
 }
 
 
-.stats > ul {
+.stats>ul {
     list-style: none;
 }
 
-.stats > ul > li {
+.stats>ul>li {
     margin-bottom: 9px;
 }
 
-.raya, .raya_vacia {
+.raya,
+.raya_vacia {
     width: 35px;
     height: 7px;
     margin-right: 5px;
@@ -30,13 +31,20 @@
     background-color: #857b7b73;
 }
 
-@media (max-width: 520px){
+@media (max-width: 520px) {
     .stats_container {
         display: flex;
         flex-direction: column;
     }
-    .raya {
+
+    .raya,
+    .raya_vacia {
         width: 25px;
         height: 5px;
+    }
+
+    .list_stats >li {
+        font-size: 15px;
+        padding-bottom: 2px;
     }
 }

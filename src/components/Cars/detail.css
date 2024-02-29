@@ -49,7 +49,8 @@ h3 {
     font-size: 15px;
 }
 
-.buy_btn, .disabled {
+.buy_btn,
+.disabled {
     border: none;
     background: linear-gradient(to bottom, #d40a0a, #720b0b);
     color: #fff;
@@ -131,21 +132,53 @@ h3 {
 }
 
 
-@media (max-width: 520px){
-    .top >img{
+@media (max-width: 1270px) {
+    .top>img {
         width: 60px;
         margin-right: 16px;
     }
-    .car_title{
+
+    .bottom_left {
+        display: flex;
+        justify-content: center;
+    }
+
+    .bottom_left>img {
+        width: 60%;
+    }
+
+    .car_title {
         font-size: 26px;
     }
+
     .bottom {
         flex-direction: column;
     }
-    .bottom_left{
+
+    .bottom_left {
         width: 100%;
     }
-    .bottom_right{
+
+    .bottom_right {
         width: 100%;
     }
+
+    .color_type_container {
+        width: 60%;
+    }
+}
+
+@media (max-width: 820px){
+    .bottom_left>img {
+        width: 70%;
+    }
+    .color_type_container{
+        width: 100%;
+    }
+}
+@media (max-width: 540px){
+    .bottom_left>img {
+        width: 100%;
+    }
+    
 }
