@@ -131,8 +131,8 @@
         "stats": {
             "speed": 80.4,
             "acceleration": 80.9,
-            "breaking": 18,
-            "traction": 80
+            "breaking": 21,
+            "traction": 79
         }
     },
     {
@@ -165,7 +165,7 @@
         "stats": {
             "speed": 63,
             "acceleration": 44,
-            "breaking": 10,
+            "breaking": 40,
             "traction": 60
         }
     }
