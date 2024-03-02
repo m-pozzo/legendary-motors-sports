@@ -21,7 +21,7 @@ export const CarDetail = () => {
     <>
       <section className='main details_container'>
         <article className="top">
-          <img src={thisCar.logo} alt='logo del vehículo' />
+          <img src={thisCar.logo} alt={thisCar.brand + " logo"} />
           <h1 className="car_title">{thisCar.name}</h1>
         </article>
         <article className="bottom">

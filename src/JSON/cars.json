@@ -69,18 +69,18 @@
     },
     {
         "id": 5,
-        "brand": "",
-        "name": "Classique Broadway",
+        "brand": "Classique",
+        "name": "Broadway",
         "photo": "/assets/img/cars/broadway.jpg",
         "mosaico": "/assets/img/cars/mosaico/broadway.webp",
-        "logo": null,
+        "logo": "/assets/img/classiqueLogo.webp",
         "price": 925000,
         "description": "Hay que admitirlo: hasta ahora, el futuro no nos ha traído más que decepciones. Nos prometieron viajes espaciales y paz mundial, pero lo que tenemos es porno en realidad virtual cada vez más raro. Y lo demás ha sido casi todo una mierda. Así que. ¿por qué no te pones al volante del Broadway y viajas a una época anterior al rule 34, donde el diseño futurista era aún una utopía de ciencia ficción en vez de una moda absurda?",
         "space": 2,
         "stats": {
             "speed": 63,
             "acceleration": 44,
-            "breaking": 10,
+            "breaking": 19,
             "traction": 60
         }
     },
