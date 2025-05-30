@@ -1,7 +1,7 @@
 .cars_container {
     display: grid;
     grid-template-columns: repeat(auto-fit,
-            minmax(275px,
+            minmax(350px,
                 1fr));
     gap: 20px;
     padding-bottom: 20px;

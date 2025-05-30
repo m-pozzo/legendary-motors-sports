@@ -4,10 +4,10 @@
     align-items: center;
     justify-content: center;
     gap: 50px;
-    width: 75%;
+    width: 55%;
     height: 250px;
     z-index: 20;
-    margin-top: 265px;
+    margin-top: 50vh;
     padding: 0 20px;
     border: #bb0b0b 2px solid;
     background-color: rgb(62, 13, 13);
