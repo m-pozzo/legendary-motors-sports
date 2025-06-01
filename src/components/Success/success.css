@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     gap: 50px;
-    width: 55%;
+    width: 80%;
     height: 250px;
     z-index: 20;
     margin-top: 50vh;
@@ -15,7 +15,7 @@
 
 .success > marquee{
     color: aliceblue;
-    font-size: 30px;
+    font-size: 45px;
 }
 
 .back {
@@ -33,6 +33,13 @@
 
 @media (max-width: 520px){
     .success {
-        margin-top: 440px;
+        margin-top: 350px;
+        height: 350px;
+    }
+    .success > marquee {
+        font-size: 30px;
+    }
+    .back {
+        margin-top: 100px;
     }
 }

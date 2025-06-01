@@ -2,8 +2,7 @@ export const Rayas = ({ porcentaje }) => {
 
   const rayasLlenas = porcentaje / 20;
   const rayaDecimal = rayasLlenas % 1.5;
-  const rayaRedondeada = rayaDecimal.toFixed(1)
-  console.log(rayasLlenas)
+  const rayaRedondeada = rayaDecimal.toFixed(1);
 
   function tieneParteDecimal(numero) {
     const numeroComoString = numero.toString();

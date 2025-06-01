@@ -25,7 +25,7 @@ body {
     justify-content: center;
     width: 100%;
     height: 65vh;
-    background-image: url('../assets/img/legendary-motorsport_cover.jpg');
+    background-image: url('../assets/img/lms-clean-reaper.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     border-bottom: 3px solid rgb(212, 15, 15);
@@ -34,7 +34,7 @@ body {
 }
 
 .logo_header {
-    width: 45%;
+    width: 35%;
     margin-bottom: 14px;
     cursor: url(../assets/img/cursor.png), auto;
 }
@@ -94,6 +94,7 @@ body {
 .btn_sort_price>span:nth-child(1) {
     font-size: 16px;
 }
+
 .btn_sort_price>span:nth-child(2) {
     font-size: 18px;
 }
@@ -101,12 +102,28 @@ body {
 @media (min-width: 560px) and (max-width: 1024px) {
     .header {
         height: 55vh;
+        background-position: 35%;
+        justify-content: flex-start;
+        padding-top: 80px;
+    }
+
+    .logo_header {
+        width: 60%;
+    }
+
+    .main {
+        margin-top: 28vh;
+    }
+
+    .text_top {
+        font-size: 23px;
     }
 }
 
-@media (max-width: 520px) {
+@media (max-width: 560px) {
     .header {
         height: 50vh;
+        background-position: 33%;
     }
 
     .logo_header {
@@ -130,12 +147,33 @@ body {
     }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 375px) {
+    .header {
+        background-position: 20%;
+    }
+
+    .text_top:nth-child(2) {
+        font-size: 16px;
+    }
+
+    .text_top:nth-child(3) {
+        font-size: 15px;
+    }
+
     .logo_header {
         width: 280px;
     }
 
     .main {
         margin-top: 45vh;
+    }
+}
+
+@media (height: 600px) {
+    .header {
+        background-position: 0 100%;
+    }
+    .main {
+        margin-top: 53vh;
     }
 }
