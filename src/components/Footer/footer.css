@@ -19,6 +19,12 @@
     padding: 0 5px;
 }
 
+@media (max-width: 700px){
+    .hide {
+        display: none;
+    }
+}
+
 @media (max-width: 520px){
     .footer {
         display: flex;
@@ -34,6 +40,9 @@
         width: 45px;
         object-fit: contain;
         padding: 0 5px;
+    }
+    .hide {
+        display: none;
     }
 }
 

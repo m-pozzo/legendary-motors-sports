@@ -88,8 +88,8 @@
         "id": 6,
         "brand": "Pegassi",
         "name": "Torero XO",
-        "photo":"/assets/img/cars/torero.jpg",
-        "mosaico":"/assets/img/cars/mosaico/torero.webp",
+        "photo": "/assets/img/cars/torero.jpg",
+        "mosaico": "/assets/img/cars/mosaico/torero.webp",
         "logo": "/assets/img/pegassiLogo.webp",
         "price": 2890000,
         "description": "El Pegassi Torero te daba un aura de estrella del porno clásica. El XO es algo muhco más glamuroso. Con sus potentes ángulos, líneas atrevidas y propulsión eufórica, es la celebridad que revienta las taquillas, saca una línea de ropa, se toma una foto en un país en desarrollo y acaba en un desplegable de la revista Gatitas; todo ello sin perder un ápice de soficticación.",
@@ -167,6 +167,57 @@
             "acceleration": 44,
             "breaking": 40,
             "traction": 60
+        }
+    },
+    {
+        "id": 11,
+        "brand": "PROGEN",
+        "name": "T20",
+        "photo": "/assets/img/cars/t20.jpg",
+        "mosaico": "/assets/img/cars/mosaico/t20.webp",
+        "logo": "/assets/img/progenLogo.webp",
+        "price": 2200000,
+        "description": "Diles a tus vecinos liberales que te compraste el Progen porque 'ahorra combustible' y reduce las emisiones de 'carbono', aunque realmente te lo hayas comprado porque le engancharon un motor eléctrico a uno dual V8 con turbocompresor solo para darle potencia extra. Como una tostadora en una tina, es una peligrosa mezcla de tecnologías viejas y nuevas. Sé progresista en el único sentido verdadero de la palabra",
+        "space": 2,
+        "stats": {
+            "speed": 53,
+            "acceleration": 54,
+            "breaking": 50,
+            "traction": 80
+        }
+    },
+    {
+        "id": 12,
+        "brand": "Pegassi",
+        "name": "Zentorno",
+        "photo": "/assets/img/cars/zentorno.jpg",
+        "mosaico": "/assets/img/cars/mosaico/zentorno.webp",
+        "logo": "/assets/img/pegassiLogo.webp",
+        "price": 725000,
+        "description": "Gracias a este supercoche chillón y vulgar de Pegassi, podrás asegurarte de que el 99% restante se entere de que vas en un vehículo que no pueden comprar. Terriblemente rápido y con un interior de alta tecnología, es lo más parecido que hay a un jet sobre ruedas. Lo único más elevado que su velocidad máxima es la cuota del seguro.",
+        "space": 2,
+        "stats": {
+            "speed": 40,
+            "acceleration": 60,
+            "breaking": 35,
+            "traction": 47
+        }
+    },
+    {
+        "id": 13,
+        "brand": "Shitzu",
+        "name": "Hakuchou Drag",
+        "photo": "/assets/img/cars/hakuchouDrag.jpg",
+        "mosaico": "/assets/img/cars/mosaico/hakuchouDrag.webp",
+        "logo": "/assets/img/shitzuLogo.webp",
+        "price": 976000,
+        "description": "No hay muchas personas que hayan llevado una Hakuchou Drag al límite de su rendimiento, pero son fáciles de distinguir: la mirada pérdida en el infinito, la mandíbula tensa, el chorrito de sangre que les sale de los oídos que, ahora, son inservibles para siempre. Es un club exclusivo. Sabes que pertences a él, así que solta la guita y hace tu sueño realidad ",
+        "space": 1,
+        "stats": {
+            "speed": 60,
+            "acceleration": 85,
+            "breaking": 45,
+            "traction": 66
         }
     }
 ]
